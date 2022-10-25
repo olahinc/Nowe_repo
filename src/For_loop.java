@@ -1,7 +1,8 @@
 public class For_loop {
     public static void main(String[] args) {
-        for (int i=0; i<10; i=i+2) {
-            System.out.println("Cześć Ola");
+        String [] tablicaKotkow=new String[] {"Bolek", "Lolek", "Ziomek", "Leszek"};
+        for (int i=0; i<4; i++) {
+            System.out.println(tablicaKotkow[i]);
         }
-    }
+        }
 }
